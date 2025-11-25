@@ -1,0 +1,72 @@
+body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: 1.6;
+}
+header{
+	background: #333;
+	color: #fff;
+	padding: 1rem 0;
+	text-align: center;
+}
+header nav ul{
+	list-style: none;
+	padding: 0;
+}
+header nav ul li{
+	display: inline;
+	margin: 0 10px;
+}
+header nav ul li a{
+	color: #fff;
+	text-decoration: underline;
+}
+section{
+	padding: 2rem;
+}
+#projects .project{
+	margin-bottom: 1.5rem;
+}
+footer{
+	text-align: center;
+	padding: 1rem;
+	background: #333;
+	color: #fff;
+}
+#projects{
+	text-align: center;
+	background: #333;
+	color: #fff;
+}
+#Profile{
+	background: pink;
+	color: #fff;
+	padding: 1rem 0;
+	text-align: center;
+}
+#About{
+	background: lightgrey;
+	color: #fff;
+	padding: 1rem 0;
+	text-align: center;
+}	
+#Contact{
+	background: lightgrey;
+	color: #fff;
+	padding: 1rem 0;
+	text-align: center;
+}
+.project-container{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	color: white;
+	background-color: pink;
+}
+.project-card{
+	border: 1px solid pink;
+	padding: 20px;
+	text-align: center;
+	width: 30%;
+}
